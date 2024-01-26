@@ -5,13 +5,13 @@ import (
 )
 
 func main() {
+	DB := DeretBilangan{40}
+	D := Deret{40}
 
-	D := DeretBilangan{40}
-
-	go D.prima()
-	go D.ganjil()
-	go D.genap()
-	go D.fibonacci()
+	go DB.prima()
+	go DB.ganjil()
+	go DB.genap()
+	go DB.fibonacci()
 
 	fmt.Scanln()
 

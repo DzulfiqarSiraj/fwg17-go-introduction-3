@@ -5,7 +5,11 @@ import (
 	"time"
 )
 
-func (D DeretBilangan) deretFibonacci() []int {
+type Deret struct {
+	N int
+}
+
+func (D Deret) deretFibonacci() []int {
 	results := []int{0, 1}
 
 	f0 := 0
