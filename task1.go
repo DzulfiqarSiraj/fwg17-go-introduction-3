@@ -20,7 +20,7 @@ func (D DeretBilangan) prima() {
 		}
 		if bilPrima {
 			fmt.Println(i)
-			time.Sleep(time.Millisecond * 100)
+			time.Sleep(time.Second)
 		}
 	}
 }
@@ -29,7 +29,7 @@ func (D DeretBilangan) ganjil() {
 	for i := 1; i <= D.N; i++ {
 		if i%2 != 0 {
 			fmt.Println(i)
-			time.Sleep(time.Millisecond * 100)
+			time.Sleep(time.Second)
 		}
 	}
 }
@@ -38,7 +38,7 @@ func (D DeretBilangan) genap() {
 	for i := 1; i <= D.N; i++ {
 		if i%2 == 0 {
 			fmt.Println(i)
-			time.Sleep(time.Millisecond * 100)
+			time.Sleep(time.Second)
 		}
 	}
 }
@@ -56,7 +56,7 @@ func (D DeretBilangan) fibonacci() {
 			break
 		} else {
 			fmt.Println(f2)
-			time.Sleep(time.Millisecond * 100)
+			time.Sleep(time.Second)
 		}
 	}
 }
